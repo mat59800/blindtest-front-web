@@ -8,7 +8,7 @@ class Game extends Component {
       <div className="Game">
         <Buzzer />
         <div className="Game_info">
-          Equipe: bleu     Pseudo: Mathieu  Points: 50 pts
+          <span>Equipe: bleu     Pseudo: Mathieu  Points: 50 pts</span>
         </div>
       </div>
     );

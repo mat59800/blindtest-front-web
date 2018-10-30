@@ -1,3 +1,24 @@
 .Game {
-  margin: auto; 
+  height:94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3vmin 3vmin 3vmin 3vmin;
+  margin: 0 25vmin 0 25vmin;
 }
+.Game_info {
+  align-self: center;
+  background-color: #CC1445;
+  height: 2.5vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.Game_info span {
+  font-size: 2vmin;
+  font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+  color: white;
+}
+

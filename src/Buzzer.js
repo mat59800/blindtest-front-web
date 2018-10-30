@@ -6,10 +6,14 @@ class Buzzer extends Component {
   render() {
     return (
       <div className="Buzzer">
-        <Button className="Buzzer_button" color="blue"/>
-        <Button className="Buzzer_button" color="red"/>
-        <Button className="Buzzer_button" color="green"/>
-        <Button className="Buzzer_button" color="yellow"/>
+        <div>
+          <Button className="Buzzer_button" color="#EF476F"/>
+          <Button className="Buzzer_button" color="#FFD166"/>
+        </div>
+        <div>
+          <Button className="Buzzer_button" color="#06D6A0"/>
+          <Button className="Buzzer_button" color="#118AB2"/>
+        </div>
       </div>
     );
   }
