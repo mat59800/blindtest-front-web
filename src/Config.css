@@ -1,0 +1,23 @@
+.Config {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Config-logo {
+  height: 30vmin;
+}
+
+.Config-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Config-texte {
+  color:white;
+  font-size: 3vw;
+  font-weight: bold;
+}

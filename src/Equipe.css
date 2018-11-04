@@ -1,0 +1,17 @@
+.Equipe {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Equipe-logo {
+  height: 15vmin;
+  width: 15vmin;
+  align-self: center;
+}
+
+#labelEquipe {
+  font-size: 5vmin;
+  color: #06D6A0;
+}

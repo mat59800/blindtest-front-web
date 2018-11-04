@@ -1,0 +1,17 @@
+.Pseudo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Pseudo-logo {
+  height: 15vmin;
+  width: 15vmin;
+  align-self: center;
+}
+
+#labelPseudo {
+  font-size: 5vmin;
+  color: #06D6A0;
+}

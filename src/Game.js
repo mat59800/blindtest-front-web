@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import Buzzer from './Buzzer';
+import Config from './Config';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './Game.css';
 
 class Game extends Component {
   render() {
     return (
-      <div className="Game">
-        <Buzzer />
-        <div className="Game_info">
-          <span>Equipe: bleu     Pseudo: Mathieu  Points: 50 pts</span>
+      <Router className="Game">
+        <div>
+          <Route exact path="/" component={Config} />
+          <Route path="/quiz" component={Buzzer} />
         </div>
-      </div>
+      </Router>
     );
   }
 }

@@ -1,6 +1,41 @@
 .Button {
-  height: 42vh;
-  width: 35vw;
+  height: 35vh;
+  width: 40vw;
   border-radius: 25px;
-  box-shadow: 5px 5px 10px 0px #00C0FF;
+}
+
+.red {
+  background-color: #EF476F;
+  box-shadow: -1px 2px 5px 1px #7F4C58,
+  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+.cliqued.red {
+  box-shadow: -1px 2px 10px 3px #7F4C58 inset;
+}
+
+.blue {
+  background-color: #118AB2;
+  box-shadow: -1px 2px 5px 1px #4BA2BF,
+  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+.cliqued.blue {
+  box-shadow: -1px 2px 10px 3px #4BA2BF inset;
+}
+
+.green {
+  background-color: #06D6A0;
+  box-shadow: -1px 2px 5px 1px #2A7F69,
+  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+.cliqued.green {
+  box-shadow: -1px 2px 10px 3px #2A7F69 inset;
+}
+
+.yellow {
+  background-color: #FFD166;
+  box-shadow: -1px 2px 5px 1px #7F7459,
+  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+.cliqued.yellow {
+  box-shadow: -1px 2px 10px 3px #7F7459 inset;
 }
